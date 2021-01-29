@@ -12,3 +12,16 @@ Install handy tools
 ```bash
 yum install -y jq gzip tar git unzip wget
 ``` 
+
+## Login to AWS 
+
+```bash
+# create access keys in aws 
+aws configure 
+
+AWS Access Key ID [None]: XXXXXX 
+AWS Secret Access Key [None]: XXXXXX 
+Default region name [None]: <your-choice> 
+Default output format [None]: json 
+```
+
