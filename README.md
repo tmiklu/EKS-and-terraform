@@ -23,5 +23,15 @@ AWS Access Key ID [None]: XXXXXX
 AWS Secret Access Key [None]: XXXXXX 
 Default region name [None]: <your-choice> 
 Default output format [None]: json 
+``` 
+
+## Download and install Terraform 
+
+```bash
+curl -o /tmp/terraform.zip https://releases.hashicorp.com/terraform/0.14.5/terraform_0.14.5_linux_amd64.zip 
+unzip /tmp/terraform.zip 
+mv terraform /usr/bin 
+terraform -version 
 ```
+
 
