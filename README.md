@@ -16,7 +16,7 @@ yum install -y jq gzip tar git unzip wget
 ## Login to AWS 
 
 ```bash
-# create access keys in aws 
+# create access keys in aws console 
 aws configure 
 
 AWS Access Key ID [None]: XXXXXX 
